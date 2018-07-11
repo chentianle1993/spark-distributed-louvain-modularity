@@ -1,7 +1,11 @@
 #使用Intellij 打开 build.gradle 来打开project, 然后在右侧execute gradle goal中输入 clean dist确定
 
+#在bin/louvain中添加-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005
 
 #然后运行./bin/louvain -i examples/small_edges.tsv -o test_output --edgedelimiter "\t"
+
+
+
 
 # dga-graphx 
 
