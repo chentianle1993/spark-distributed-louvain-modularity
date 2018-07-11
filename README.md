@@ -1,3 +1,6 @@
+#使用Intellij 打开 build.gradle 来打开project, 然后在右侧execute gradle goal中输入 clean dist确定
+#然后运行./bin/louvain -i examples/small_edges.tsv -o test_output --edgedelimiter "\t"
+
 # dga-graphx 
 
 - GraphX Algorithms
@@ -14,7 +17,7 @@ The dga-graphX package contains several pre-built executable graph algorithms bu
 
 If necessary edit the build.gradle file to set your version of spark and graphX
 
-# 使用Intellij 打开 build.gradle 来打开project, 然后在右侧execute gradle goal中输入 clean dist确定
+# 
 
 > gradle clean dist
 
