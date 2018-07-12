@@ -5,15 +5,15 @@
 #然后运行./bin/louvain -i examples/small_edges.tsv -o test_output --edgedelimiter "\t"
 
 #运行逻辑: 
-Main()
-  ->从txt中读取边组成edgeRDD
-  ->创建图: Graph.fromEdges(edgeRDD)
-  ->运行Louvain算法: new HDFSLouvainRunner(minProgress,progressCounter,outputdir).run()
-      ->LouvainCore.createLouvainGraph(graph)
-      ->初始化 var (level, q, halt)=(-1,-1.0,false)
-      ->while(...){
-          LouvainCore.louvain(sc, louvainGraph,minProgress,progressCounter)
-        }
+#Main()
+#  ->从txt中读取边组成edgeRDD
+#  ->创建图: Graph.fromEdges(edgeRDD)
+#  ->运行Louvain算法: new HDFSLouvainRunner(minProgress,progressCounter,outputdir).run()
+#      ->LouvainCore.createLouvainGraph(graph)
+#      ->初始化 var (level, q, halt)=(-1,-1.0,false)
+#      ->while(...){
+#          LouvainCore.louvain(sc, louvainGraph,minProgress,progressCounter)
+#        }
 
 
 
