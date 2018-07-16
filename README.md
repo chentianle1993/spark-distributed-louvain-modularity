@@ -6,24 +6,26 @@
 
 #运行逻辑: 
 
-#Main()
+<pre><code>
 
-#  ->从txt中读取边组成edgeRDD
+Main()
 
-#  ->创建图: Graph.fromEdges(edgeRDD)
+  ->从txt中读取边组成edgeRDD
 
-#  ->运行Louvain算法: new HDFSLouvainRunner(minProgress,progressCounter,outputdir).run()
+  ->创建图: Graph.fromEdges(edgeRDD)
 
-#      ->LouvainCore.createLouvainGraph(graph)
+  ->运行Louvain算法: new HDFSLouvainRunner(minProgress,progressCounter,outputdir).run()
 
-#      ->初始化 var (level, q, halt)=(-1,-1.0,false)
+      ->LouvainCore.createLouvainGraph(graph)
 
-#      ->while(...){
+      ->初始化 var (level, q, halt)=(-1,-1.0,false)
 
-#          LouvainCore.louvain(sc, louvainGraph,minProgress,progressCounter)
+      ->while(...){
 
-#        }
+          LouvainCore.louvain(sc, louvainGraph,minProgress,progressCounter)
 
+        }
+</code></pre>
 
 
 
