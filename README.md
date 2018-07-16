@@ -4,8 +4,8 @@
 
 #然后运行./bin/louvain -i examples/small_edges.tsv -o test_output --edgedelimiter "\t"
 
+##运行逻辑:
 <pre><code>
-运行逻辑: 
 Main()
   ->从txt中读取边组成edgeRDD
   ->创建图: Graph.fromEdges(edgeRDD)
