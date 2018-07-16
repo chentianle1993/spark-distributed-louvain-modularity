@@ -14,15 +14,15 @@ Main()
 
   ->运行Louvain算法: new HDFSLouvainRunner(minProgress,progressCounter,outputdir).run()
 
-      ->LouvainCore.createLouvainGraph(graph)
+>      ->LouvainCore.createLouvainGraph(graph)
 
-      ->初始化 var (level, q, halt)=(-1,-1.0,false)
+>      ->初始化 var (level, q, halt)=(-1,-1.0,false)
 
-      ->while(...){
+>      ->while(...){
 
-          LouvainCore.louvain(sc, louvainGraph,minProgress,progressCounter)
+>          LouvainCore.louvain(sc, louvainGraph,minProgress,progressCounter)
 
-        }
+>        }
 
 
 
